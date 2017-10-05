@@ -18,7 +18,7 @@ module Reek
       # code        - ruby code as String
       # description - in case of STDIN this is "STDIN" otherwise it's a filepath as String
       # parser      - the parser to use for generating AST's out of the given source
-      def initialize(code, description, parser = Parser::Ruby23)
+      def initialize(code, description, parser = Parser::Ruby22)
         @source      = code
         @description = description
         @parser      = parser
